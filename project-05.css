@@ -210,8 +210,8 @@ footer .footer_info .col-12 .social_icons .icon {
   }
 }
 
-@media screen and (max-width: 768px) {
-  footer .footer_info {
+@media screen and (max-width: 767px) {
+  footer .footer_info-1 {
     height: 200px;
   }
   footer .footer_info .item-1 {
@@ -219,7 +219,7 @@ footer .footer_info .col-12 .social_icons .icon {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   footer .footer_info .item-1 {
     width: 50%;
     height: 50%;
@@ -261,10 +261,6 @@ footer .footer_info .col-12 .social_icons .icon {
 
 #section_more {
   padding: 0px;
-}
-
-nav.navbar, header#header_jumbotron, section#section_news, section#section_singers, footer, section#section_more {
-  display: none;
 }
 
 footer {
